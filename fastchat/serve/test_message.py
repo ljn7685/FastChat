@@ -67,7 +67,7 @@ def main():
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--controller-address", type=str, default="http://localhost:21001"
+        "--controller-address", type=str, default="http://127.0.0.1:21001"
     )
     parser.add_argument("--worker-address", type=str)
     parser.add_argument("--model-name", type=str, required=True)
